@@ -13,10 +13,10 @@ Last updated on 2026-05-03 13-14-30
 This repository focuses on **high-fidelity Seedance 2.0 prompts** sourced from Martini Art and top prompt engineers. Whether you are looking for **cinematic transitions**, **character consistency**, or complex motion sequences, you will find the most effective inputs here to unlock the full potential of **Martini Art**.
 
 ### Sponsor
-[![Martini Art Ad](./assets/martini-art-real-face-upload-banner.webp)](https://martini.art/seedance2.0?utm_source=awesome-seedance)
+[![Martini Art Ad](./assets/martini-art-real-face-upload-banner.webp)](https://martini.art/)
 
 > **💡 Struggle with Seedance 2.0 Face Detection?**
-> Martini Art now supports **real face uploads without limits!** Plus, enjoy our massive price drop. [Unlock your limits at Martini Art →](https://martini.art/seedance2.0?utm_source=awesome-seedance)
+> Martini Art now supports **real face uploads without limits!** Plus, enjoy our massive price drop. [Unlock your limits at Martini Art →](https://martini.art/)
 
 ## Seedance 2.0 完整提示词 + 媒体链接 + 纯用户视频分享（高播放量精选）
 
