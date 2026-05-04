@@ -20,7 +20,7 @@ Last updated on 2026-05-03 13-14-30
 
 只保留纯用户生成、提示词直接可见的高质量 Seedance 2.0 视频帖。每个帖均包含：帖子链接、视频直链、播放量、完整提示词（verbatim 复制即可用）、参考图片/媒体链接（若帖子中包含参考图、起始帧或附加图片）、使用建议。
 
-提示词已从原帖线程验证提取，可直接复制到 Seedance 2.0 / Dreamina / CapCut 使用。共精选 6 个高质量帖（播放量、提示词完整度、动作设计和叙事结构综合筛选），其他帖可按此模式继续补充。
+提示词已从原帖线程验证提取，可直接复制到 Seedance 2.0 / Dreamina / CapCut 使用。先列 6 个高质量帖（播放量、提示词完整度、动作设计和叙事结构综合筛选），并在下方补充 YouMind All Prompts 中的更多社区案例。
 
 ## 1. @techhalla - 262,403 views
 
@@ -280,12 +280,396 @@ SFX: impact burst,
 
 **使用建议：** 将此 System Prompt 设为 GPT / Claude / Gemini 的自定义指令，然后上传任意 1 张图片，即可自动生成 Seedance 2.0 专用 JSON 提示词。非常适合批量生成 Vlog 风格视频。
 
-## 7. 更多资料
+## 7. 更多社区提示词（参考 All Prompts）
+
+> 以下条目参考 YouMind `All Prompts` 的最新排序补充。每条保留原作者、原帖和播放页；可嵌入播放的条目使用播放器展示。
+
+### 7.1. Cyberpunk Game Character Interaction Video
+
+A video generation prompt for creating a character showcase in a cyberpunk style. The character performs a 360-degree turn on a platform and waves to the camera, accompanied by flickering electric text effects for an interactive game UI feel.
+
+**Author:** [傅盛](https://x.com/FuSheng_0306)
+
+**Source:** [Original post](https://x.com/FuSheng_0306/status/2050805445032337720)
+
+**Published:** May 3, 2026
+
+**Watch:** [YouMind video page](https://youmind.com/en-US/seedance-2-0-prompts?id=4064)
+
+<iframe src="https://iframe.cloudflarestream.com/20131dceb247089f4d10a285bd035e72" style="border: none; width: 720px; max-width: 100%; aspect-ratio: 16 / 9;" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+
+**视频/图片预览：**
+
+<img width="720" alt="Cyberpunk Game Character Interaction Video" src="https://customer-qs6wnyfuv0gcybzj.cloudflarestream.com/20131dceb247089f4d10a285bd035e72/thumbnails/thumbnail.jpg" />
+
+**完整提示词：**
+
+```text
+Provide me with more precise prompts based on my ideas. Requirements: While maintaining character appearance and clothing consistency, this person stands on a platform and completes a full rotation, similar to a character showcase in a game. After finishing the rotation and facing the audience again, they raise their right hand and wave. At the same time, the text in the scene should flash with a cyber-tech feel, as if electric currents are flowing through it. Create an overall feeling of an interactive game interface.
+```
+
+### 7.2. Sci-Fi Commercial Mecha Storyboard
+
+A prompt for a 15-second commercial featuring mecha and monsters, designed to follow specific storyboard and character sheet references.
+
+**Author:** [とすくん](https://x.com/tokyo_Valentine)
+
+**Source:** [Original post](https://x.com/tokyo_Valentine/status/2050784601191432351)
+
+**Published:** May 3, 2026
+
+**Watch:** [YouMind video page](https://youmind.com/en-US/seedance-2-0-prompts?id=4032)
+
+<iframe src="https://iframe.cloudflarestream.com/49c044de4f82fa297a2b11449817c5e9" style="border: none; width: 720px; max-width: 100%; aspect-ratio: 16 / 9;" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+
+**视频/图片预览：**
+
+<img width="720" alt="Sci-Fi Commercial Mecha Storyboard" src="https://customer-qs6wnyfuv0gcybzj.cloudflarestream.com/49c044de4f82fa297a2b11449817c5e9/thumbnails/thumbnail.jpg" />
+
+**完整提示词：**
+
+```text
+Language: Japanese\nSubtitles: None\n\nSynopsis:\n15-second commercial video\nPlease compose the cuts/scenes in @Image3
+```
+
+### 7.3. AEW Women's Championship Wrestling Match
+
+A cinematic and hyper-realistic video prompt for a professional wrestling championship match, featuring character descriptions, choreography, and arena lighting.
+
+**Author:** [TSUBAKI](https://x.com/AI__TSUBAKI)
+
+**Source:** [Original post](https://x.com/AI__TSUBAKI/status/2050689475626573993)
+
+**Published:** May 2, 2026
+
+**Watch:** [YouMind video page](https://youmind.com/en-US/seedance-2-0-prompts?id=4068)
+
+**视频/图片预览：**
+
+<img width="720" alt="AEW Women&#x27;s Championship Wrestling Match" src="https://cms-assets.youmind.com/media/1777791283096_w614bi_HHWBfJ5bUAAd55d.jpg" />
+
+**完整提示词：**
+
+```text
+Hyper-realistic cinematic 15-second continuous video of a women's championship finale in a sold-out arena. Featuring Riho (Japanese, idol-like cuteness, black hair, very petite, light blue and white gear) vs Mercedes Moné (American, powerful and charismatic physique, gold-themed gear). Follow the storyboard sequence precisely: exhausted mid-match staredown → hard clothesline → submission struggle → DDT reversal → near fall → German suplex → top-rope moonsault finisher → three-count pin → championship victory moment. Maintain consistent facial identity and body proportions throughout. Realistic sweat, impact physics, and intense crowd reactions. Use slow motion for key moments. End with confetti and corner pyrotechnics as a cinematic crane shot rises on the winner. Photorealistic, AEW broadcast quality, 60fps, high-contrast lighting.
+```
+
+### 7.4. Lipstick Brand Storyboard Ad
+
+A storyboard-driven video prompt for a lipstick advertisement featuring a woman in an elegant restaurant in Paris.
+
+**Author:** [Olivio Sarikas](https://x.com/OlivioSarikas)
+
+**Source:** [Original post](https://x.com/OlivioSarikas/status/2050664853082456156)
+
+**Published:** May 2, 2026
+
+**Watch:** [YouMind video page](https://youmind.com/en-US/seedance-2-0-prompts?id=4043)
+
+<iframe src="https://iframe.cloudflarestream.com/413caf78b18669c430db891e992d3abe" style="border: none; width: 720px; max-width: 100%; aspect-ratio: 16 / 9;" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+
+**视频/图片预览：**
+
+<img width="720" alt="Lipstick Brand Storyboard Ad" src="https://customer-qs6wnyfuv0gcybzj.cloudflarestream.com/413caf78b18669c430db891e992d3abe/thumbnails/thumbnail.jpg" />
+
+**完整提示词：**
+
+```text
+Follow this storyboard @image_1 to create this AD
+
+story =  a woman in a elegant red dress uses her lipstick then sits own in a restaturant to have a date with a elegant man
+
+1) establishing shot of the outside of the restaurant in paris
+
+2) wide angle of the woman walking towards the entrace of the restaurant
+
+3) closeup of smiling woman holding the lipstick @image_2 sideways to that the label "HotLips" is clearly visible on the Lipstick
+
+4) closeup of the lips of the woman as she applies the red lipstick
+
+5) over the shoulder of the woman walking towards the table with the man
+
+6) closeup of the man smiling and saying "Amore with a Smile" - no speech-bubble!!!!
+
+7) medium-wide shot of both sitting across each other talking and laughing while holding hands across the table
+
+8) closeup of the woman winking at the camera with a smile and the elegant text "HotLips Lipstick - Amore with a smile"
+```
+
+### 7.5. Human Evolution Hyper-lapse
+
+A simple yet effective prompt for creating a seamless hyper-lapse video showing the evolution of humans over time.
+
+**Author:** [Pan](https://x.com/sebatheepan)
+
+**Source:** [Original post](https://x.com/sebatheepan/status/2050660247899980083)
+
+**Published:** May 2, 2026
+
+**Watch:** [YouMind video page](https://youmind.com/en-US/seedance-2-0-prompts?id=4050)
+
+<iframe src="https://iframe.cloudflarestream.com/afe14b9312703c4a0fc977d564b3994f" style="border: none; width: 720px; max-width: 100%; aspect-ratio: 16 / 9;" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+
+**视频/图片预览：**
+
+<img width="720" alt="Human Evolution Hyper-lapse" src="https://customer-qs6wnyfuv0gcybzj.cloudflarestream.com/afe14b9312703c4a0fc977d564b3994f/thumbnails/thumbnail.jpg" />
+
+**完整提示词：**
+
+```text
+human evolution over time a chronological hyper lapse video seamless transitions
+```
+
+### 7.6. Romantic Film Strip Ocean Memories
+
+A cinematic sequence featuring a glowing film strip displaying romantic memories over the ocean at night.
+
+**Author:** [Viki](https://x.com/churvikv)
+
+**Source:** [Original post](https://x.com/churvikv/status/2050655860846690351)
+
+**Published:** May 2, 2026
+
+**Watch:** [YouMind video page](https://youmind.com/en-US/seedance-2-0-prompts?id=4039)
+
+<iframe src="https://iframe.cloudflarestream.com/ca5b2225efce5d971334f80663005f2d" style="border: none; width: 720px; max-width: 100%; aspect-ratio: 16 / 9;" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+
+**视频/图片预览：**
+
+<img width="720" alt="Romantic Film Strip Ocean Memories" src="https://customer-qs6wnyfuv0gcybzj.cloudflarestream.com/ca5b2225efce5d971334f80663005f2d/thumbnails/thumbnail.jpg" />
+
+**完整提示词：**
+
+```text
+cinematic romantic sequence featuring a glowing film strip telling a love story at night over the ocean.
+[0-3s] FIRST FRAME — Camera focuses on the first frame of a luminous film strip: a couple met on the beach at sunset. They are holding hands, silhouettes against orange and pink sky. Soft golden glow surrounds the frame. Gentle ocean waves in the background. Camera slowly pushes in.
+[3-7s] LOVE MONTAGE — Camera smoothly moves between different film frames showing various romantic moments: first date under floating hot air balloons with colorful patterns, a passionate kiss on a sailboat at dusk with golden reflections on water, walking hand in hand under a starry sky with Milky Way visible, dancing together on the beach with sparklers. Each frame glows with warm golden light. Transitions between frames are fluid and dreamlike with soft light flares.
+[7-10s] EMOTIONAL PEAK — Camera lingers on the most intimate frame: the proposal moment on the same beach, ring box opening, tears of joy, tight embrace. Golden particles float around them. The frame pulses brighter than others. Ocean waves reflect the golden light. Hot air balloons drift in the background sky.
+[10-13s] REAL WORLD — Camera exits from the film strip, revealing a real couple standing on the rocky shore looking up at this same glowing film strip in the night sky. They stand close together, arms around each other, watching their memories displayed above. She rests her head on his shoulder. Ocean waves gently lap at the rocks. Their reflection visible in shallow water.
+[13-15s] UNITY & ETERNITY — The couple and the glowing film strip merge in one unified frame. The boundary between reality and memories dissolves magically. Golden light flows from the film to envelop the real couple. Stars twinkle brilliantly in the deep blue sky, hot air balloons float peacefully. Final shot: love is captured in eternity, the film strip and couple becoming one luminous entity. Romantic, timeless atmosphere with infinite feeling.
+```
+
+### 7.7. Cowboy Showdown Storyboard Conversion
+
+A prompt for transforming a 3x3 storyboard into a 15-second cinematic Western short film, emphasizing emotional transitions and specific character actions.
+
+**Author:** [ai.gezgini](https://x.com/ai_gezgini)
+
+**Source:** [Original post](https://x.com/ai_gezgini/status/2050645169452863863)
+
+**Published:** May 2, 2026
+
+**Watch:** [YouMind video page](https://youmind.com/en-US/seedance-2-0-prompts?id=4028)
+
+<iframe src="https://iframe.cloudflarestream.com/df052035796f092cc28c758b15f4b516" style="border: none; width: 720px; max-width: 100%; aspect-ratio: 16 / 9;" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+
+**视频/图片预览：**
+
+<img width="720" alt="Cowboy Showdown Storyboard Conversion" src="https://customer-qs6wnyfuv0gcybzj.cloudflarestream.com/df052035796f092cc28c758b15f4b516/thumbnails/thumbnail.jpg" />
+
+**完整提示词：**
+
+```text
+Create a seamless 15-second cinematic cowboy showdown video using the uploaded 3x3 storyboard image as the main reference.
+
+Use the storyboard only for character identity, shot order, poses, wardrobe, composition, emotional tone, and scene progression. Do NOT recreate the storyboard grid, borders, or panel layout. Transform it into one continuous cinematic video.
+
+Style: ultra-realistic cinematic western film, tense dusty frontier town, dramatic golden-hour cowboy atmosphere
+
+Video Flow:
+The female cowboy’s distant walk toward camera is shown only briefly, then the shot quickly moves into a close-up of her face, revealing sadness, disappointment, and quiet determination. She reaches the male cowboy and faces him in the dusty western street as tension builds through close-ups of eyes, hands, holster, boots, wind, and drifting dust. The man stands with his back toward the camera and never reaches for his gun. Suddenly, the woman draws her revolver with sharp speed and shoots him. He is hit and falls into the dust. She lowers the gun, still sorrowful rather than victorious, then turns away and walks into the sunset after completing her mission.
+```
+
+### 7.8. Natural Aesthetic GRWM Video
+
+A video prompt for creating an organic, Instagram-style 'Get Ready With Me' clip featuring a creator in a cozy bedroom setting with soft natural lighting.
+
+**Author:** [Sharon Riley](https://x.com/Just_sharon7)
+
+**Source:** [Original post](https://x.com/Just_sharon7/status/2050643288752099742)
+
+**Published:** May 2, 2026
+
+**Watch:** [YouMind video page](https://youmind.com/en-US/seedance-2-0-prompts?id=4030)
+
+<iframe src="https://iframe.cloudflarestream.com/1d2c58e501dd6395cb8547eb1d26029a" style="border: none; width: 720px; max-width: 100%; aspect-ratio: 16 / 9;" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+
+**视频/图片预览：**
+
+<img width="720" alt="Natural Aesthetic GRWM Video" src="https://customer-qs6wnyfuv0gcybzj.cloudflarestream.com/1d2c58e501dd6395cb8547eb1d26029a/thumbnails/thumbnail.jpg" />
+
+**完整提示词：**
+
+```text
+Setting & Aesthetic
+Filmed in a cozy, natural bedroom with soft neutral tones (beige, white, warm grey). Natural side lighting creates a warm, authentic feel. Background features a neatly made bed and bedside lamp — lived-in but clean. No ring light — keeps it feeling organic and real.
+👤 Creator Vibe
+Young woman, 20s, effortlessly put-together — long straight highlighted hair (showcasing the product's results), minimal glam makeup, soft pink cardigan over a white top, dainty pearl necklace. She looks like your stylish friend, not a polished influencer.
+🎙️ Delivery Style
+Warm, conversational, slightly excited
+Looking down at the product then up at camera — natural discovery feel
+Smiling softly — approachable and trustworthy
+Speaking mid-sentence as if mid-thought (hook style)
+```
+
+### 7.9. Cybernetic Gunslinger Neon Action
+
+An ultra-cinematic action sequence involving a cybernetic gunslinger in a neon-lit, rain-soaked futuristic street.
+
+**Author:** [LudovicCreator](https://x.com/LudovicCreator)
+
+**Source:** [Original post](https://x.com/LudovicCreator/status/2050640233553657935)
+
+**Published:** May 2, 2026
+
+**Watch:** [YouMind video page](https://youmind.com/en-US/seedance-2-0-prompts?id=4042)
+
+<iframe src="https://iframe.cloudflarestream.com/6a542b0621e83a3982b6ab3ea46d3249" style="border: none; width: 720px; max-width: 100%; aspect-ratio: 16 / 9;" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+
+**视频/图片预览：**
+
+<img width="720" alt="Cybernetic Gunslinger Neon Action" src="https://customer-qs6wnyfuv0gcybzj.cloudflarestream.com/6a542b0621e83a3982b6ab3ea46d3249/thumbnails/thumbnail.jpg" />
+
+**完整提示词：**
+
+```text
+General Technical Specifications: ultra-cinematic blockbuster, photorealistic 8K, f/0.4 aperture, high contrast, deep blue neon night, volumetric rain and fog
+
+Lighting: strong neon contrast (blue, magenta), reflections on wet asphalt, flickering signage, backlight silhouettes
+
+Shot List and Sequence:
+
+Shot 1: Wide Shot (2s)
+A lone cybernetic gunslinger stands in a neon-lit street at night. Rain falling. Coat moving slightly. Shadowy figures emerge from alleys, forming a loose circle.
+
+Shot 2: Close-Up (1.5s)
+Face tight. One eye glowing. Subtle mechanical flicker. Calm, focused.
+
+Shot 3: Insert Shot (1s)
+Hand near holster. Fingers twitch with precise servo motion.
+
+Shot 4: Medium + Whip Pan (2s)
+An attacker rushes forward. Camera whip pans as the gunslinger turns sharply.
+
+Shot 5: Action Shot (2s)
+Instant draw. A sharp energy discharge fires forward, creating a brief air distortion ripple.
+
+Shot 6: Impact Shot (1.5s)
+Attacker is pushed backward, sliding across wet ground, sparks scattering.
+
+Shot 7: Side Tracking (2s)
+Two more figures approach. The gunslinger pivots and fires in controlled succession, minimal movement, maximum precision.
+
+Shot 8: Close Combat (1.5s)
+One attacker reaches close range. Fast mechanical arm movement creates strong kinetic displacement, sending them off balance.
+
+Shot 9: Micro Slow Motion (1s)
+Rain freezes briefly as another shot cuts through the air, glowing trail visible.
+
+Shot 10: Final Hero Shot (1.5s)
+Silence. The gunslinger stands alone. Weapon lowered slightly. Neon reflections ripple across the wet street.
+
+Camera: a lot of camera angles and shot switches, ultra dynamic, whip pans, fast cuts, controlled micro slow-motion
+
+Style: 80s/90s action movie style, ultra dynamic, dramatic cloth movement, volumetric rain and fog, grounded physics, normal proportions without stretch
+```
+
+### 7.10. Cinematic FPV Snowboard Sequence
+
+A high-octane FPV drone-style video prompt capturing a professional snowboarder carving through fresh powder at golden hour, including detailed scene-by-scene motion instructions.
+
+**Author:** [yopiwhs](https://x.com/Gwsubsa)
+
+**Source:** [Original post](https://x.com/Gwsubsa/status/2050609668112949486)
+
+**Published:** May 2, 2026
+
+**Watch:** [YouMind video page](https://youmind.com/en-US/seedance-2-0-prompts?id=4024)
+
+<iframe src="https://iframe.cloudflarestream.com/7fa6e6e90a6eb629033c57045ff28394" style="border: none; width: 720px; max-width: 100%; aspect-ratio: 16 / 9;" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+
+**视频/图片预览：**
+
+<img width="720" alt="Cinematic FPV Snowboard Sequence" src="https://customer-qs6wnyfuv0gcybzj.cloudflarestream.com/7fa6e6e90a6eb629033c57045ff28394/thumbnails/thumbnail.jpg" />
+
+**完整提示词：**
+
+```text
+Ultra-realistic cinematic FPV snowboard sequence, 4K HDR, high contrast, cold blue color grading, natural lighting, strong motion blur, realistic snow physics, 16:9.
+
+LOCATION:
+High mountain snowy landscape, wide open slopes, powder snow, golden hour sunlight, dramatic sky.
+
+MAIN SUBJECT:
+A professional snowboarder wearing a modern snow jacket, helmet, and goggles. Smooth, aggressive riding style.
+
+CAMERA STYLE:
+FPV drone-style follow cam, ultra dynamic, close tracking, fast acceleration, precise movement.
+
+[0–5s]
+The camera starts behind the snowboarder at the top of a snowy peak. Strong wind blows snow particles. The rider drops in aggressively downhill. Powder snow sprays toward the camera, slight lens snow effects, intense speed feeling.
+
+[5–10s]
+High-speed carving sequence. The camera follows very closely, shifting slightly side-to-side. Snow sprays dynamically with each turn. Strong motion blur and wind streak effects. Terrain uneven and fast.
+
+[10–15s]
+The rider launches off a small cliff. The camera follows upward smoothly. Mid-air slow motion: floating snow particles, dramatic lighting. The rider performs a stylish trick. Hard landing with explosive snow impact, subtle camera shake, then stabilizes.
+```
+
+### 7.11. Stylized 3D Animation Adventure
+
+A narrative-driven prompt for Seedance 2.0 designed to create a stylized 3D animation of a friendship adventure featuring a storm-cloud rescue and a joyful return.
+
+**Author:** [Kōda](https://x.com/aimikoda)
+
+**Source:** [Original post](https://x.com/aimikoda/status/2050608494361956510)
+
+**Published:** May 2, 2026
+
+**Watch:** [YouMind video page](https://youmind.com/en-US/seedance-2-0-prompts?id=4058)
+
+<iframe src="https://iframe.cloudflarestream.com/e6c3e49d4e526f1db68144d939931db3" style="border: none; width: 720px; max-width: 100%; aspect-ratio: 16 / 9;" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+
+**视频/图片预览：**
+
+<img width="720" alt="Stylized 3D Animation Adventure" src="https://customer-qs6wnyfuv0gcybzj.cloudflarestream.com/e6c3e49d4e526f1db68144d939931db3/thumbnails/thumbnail.jpg" />
+
+**完整提示词：**
+
+```text
+INTENT: Create a playful, high-energy friendship adventure that briefly turns tense when one rider is pulled into storm clouds, then resolves with a triumphant rescue and joyful return. STYLE: stylized family-feature 3D animation feel, rounded expressive
+```
+
+### 7.12. Ancient Indian Kingdom FPV
+
+An immersive FPV drone-style prompt flying through the detailed architecture and bustling life of the ancient Kekaya kingdom.
+
+**Author:** [Shushant Lakhyani](https://x.com/shushant_l)
+
+**Source:** [Original post](https://x.com/shushant_l/status/2050591261820878904)
+
+**Published:** May 2, 2026
+
+**Watch:** [YouMind video page](https://youmind.com/en-US/seedance-2-0-prompts?id=4046)
+
+<iframe src="https://iframe.cloudflarestream.com/89f62128322218bce219732c0c5aaf62" style="border: none; width: 720px; max-width: 100%; aspect-ratio: 16 / 9;" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+
+**视频/图片预览：**
+
+<img width="720" alt="Ancient Indian Kingdom FPV" src="https://customer-qs6wnyfuv0gcybzj.cloudflarestream.com/89f62128322218bce219732c0c5aaf62/thumbnails/thumbnail.jpg" />
+
+**完整提示词：**
+
+```text
+Extremely fast-paced cinematic FPV flying through the ancient Indian Kekaya kingdom at its peak, hyper-realistic, ultra-detailed, HDR. Camera starts high above vast fertile plains and rivers, rapidly diving into a grand fortified city with sandstone palaces, intricate carvings, and towering gates. Speeding through bustling markets filled with traders, horses, chariots, silk fabrics, and pottery. Dynamic motion through royal courtyards where warriors train with swords and archers practice. Then smoothly go into opulent interiors with golden decor, oil lamps, and royal assemblies. Intense FPV sweeps over battle formations outside the city with elephants, cavalry, and infantry in traditional armor. Sunset lighting with warm tones, volumetric dust, dramatic shadows, cinematic depth of field. Highly immersive, realistic physics, historically inspired architecture and clothing, epic scale
+```
+
+## 8. 更多资料
 
 - [Martini Art Repo](https://github.com/MartiniArt/awesome-seedance-2-prompt)
 - [Martini Art](https://martini.art/)
 
-## 8. 贡献
+## 9. 贡献
 
 Contributions are welcome. If you have a high-quality Seedance 2.0 prompt with a visible source thread, submit a Pull Request.
 
