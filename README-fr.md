@@ -24,8 +24,6 @@ Remarque : afin de preserver la reproductibilite, de nombreux blocs de prompt re
 
 ## 1. @techhalla - 262,403 views
 
-**定位：** 动作最燃 + 提示最详细
-
 **Credit：** [@techhalla](https://x.com/techhalla)
 
 **帖子链接：** https://x.com/techhalla/status/2038922299152212250
@@ -71,8 +69,6 @@ Photorealistic 8K, movie-level stable facial features and body shape, ultra-deta
 
 ## 2. @aimikoda (Kōda) - 174,689 views
 
-**定位：** 叙事最强 + match cut 神作
-
 **Credit：** [@aimikoda](https://x.com/aimikoda)
 
 **帖子链接：** https://x.com/aimikoda/status/2039380650109649085
@@ -113,8 +109,6 @@ TIMELINE:
 **使用建议：** 这是 match cut + 现实 vs 虚拟 的经典案例。提示词极长但结构清晰，建议搭配 Midjourney / GPT Image 2 生成的第一帧参考图使用。
 
 ## 3. @0xbisc (Latte) - 104,948 views
-
-**定位：** 动作设计最专业，8 分镜
 
 **Credit：** Latte ([@0xbisc](https://x.com/0xbisc))
 
@@ -202,8 +196,6 @@ SFX: impact burst,
 
 ## 4. @EHuanglu (el.cine) - 93,550 views
 
-**定位：** 电影运镜教学帖
-
 **Credit：** el.cine ([@EHuanglu](https://x.com/EHuanglu))
 
 **帖子链接：** https://x.com/EHuanglu/status/2030046324062609599
@@ -243,8 +235,6 @@ SFX: impact burst,
 **图片链接说明：** 以上帖多为视频 + 少量参考图，建议直接从 X 帖子保存起始帧或角色参考图作为 img2vid 输入。
 
 ## 6. @AI_GIRL_DESIGN - 619,458 views
-
-**定位：** 最高播放量，System Prompt 最佳实践
 
 **Credit：** [@AI_GIRL_DESIGN](https://x.com/AI_GIRL_DESIGN)
 
