@@ -20,7 +20,7 @@ Remarque : afin de preserver la reproductibilite, de nombreux blocs de prompt re
 
 只保留纯用户生成、提示词直接可见的高质量 Seedance 2.0 视频帖。每个帖均包含：帖子链接、视频直链、播放量、完整提示词（verbatim 复制即可用）、参考图片/媒体链接（若帖子中包含参考图、起始帧或附加图片）、使用建议。
 
-提示词已从原帖线程验证提取，可直接复制到 Seedance 2.0 / Dreamina / CapCut 使用。先列 6 个高质量帖（播放量、提示词完整度、动作设计和叙事结构综合筛选），并在下方补充 YouMind All Prompts 中的更多社区案例。
+提示词已从原帖线程验证提取，可直接复制到 Seedance 2.0 / Dreamina / CapCut 使用。先列 6 个高质量帖（播放量、提示词完整度、动作设计和叙事结构综合筛选），并在下方补充社区 All Prompts 中的更多案例。
 
 ## 1. @techhalla - 262,403 views
 
@@ -282,7 +282,7 @@ SFX: impact burst,
 
 ## 7. 更多社区提示词（参考 All Prompts）
 
-> 以下条目参考 YouMind `All Prompts` 的最新排序补充。每条保留原作者、原帖和播放页；可嵌入播放的条目使用播放器展示。
+> 以下条目参考社区 `All Prompts` 的排序补充。每条保留原作者、原帖和可嵌入播放媒体。
 
 ### 7.1. Cyberpunk Game Character Interaction Video
 
@@ -293,8 +293,6 @@ A video generation prompt for creating a character showcase in a cyberpunk style
 **Source:** [Original post](https://x.com/FuSheng_0306/status/2050805445032337720)
 
 **Published:** May 3, 2026
-
-**Watch:** [YouMind video page](https://youmind.com/en-US/seedance-2-0-prompts?id=4064)
 
 <iframe src="https://iframe.cloudflarestream.com/20131dceb247089f4d10a285bd035e72" style="border: none; width: 720px; max-width: 100%; aspect-ratio: 16 / 9;" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
 
@@ -318,8 +316,6 @@ A prompt for a 15-second commercial featuring mecha and monsters, designed to fo
 
 **Published:** May 3, 2026
 
-**Watch:** [YouMind video page](https://youmind.com/en-US/seedance-2-0-prompts?id=4032)
-
 <iframe src="https://iframe.cloudflarestream.com/49c044de4f82fa297a2b11449817c5e9" style="border: none; width: 720px; max-width: 100%; aspect-ratio: 16 / 9;" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
 
 **视频/图片预览：**
@@ -342,12 +338,6 @@ A cinematic and hyper-realistic video prompt for a professional wrestling champi
 
 **Published:** May 2, 2026
 
-**Watch:** [YouMind video page](https://youmind.com/en-US/seedance-2-0-prompts?id=4068)
-
-**视频/图片预览：**
-
-<img width="720" alt="AEW Women&#x27;s Championship Wrestling Match" src="https://cms-assets.youmind.com/media/1777791283096_w614bi_HHWBfJ5bUAAd55d.jpg" />
-
 **完整提示词：**
 
 ```text
@@ -363,8 +353,6 @@ A storyboard-driven video prompt for a lipstick advertisement featuring a woman 
 **Source:** [Original post](https://x.com/OlivioSarikas/status/2050664853082456156)
 
 **Published:** May 2, 2026
-
-**Watch:** [YouMind video page](https://youmind.com/en-US/seedance-2-0-prompts?id=4043)
 
 <iframe src="https://iframe.cloudflarestream.com/413caf78b18669c430db891e992d3abe" style="border: none; width: 720px; max-width: 100%; aspect-ratio: 16 / 9;" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
 
@@ -406,8 +394,6 @@ A simple yet effective prompt for creating a seamless hyper-lapse video showing 
 
 **Published:** May 2, 2026
 
-**Watch:** [YouMind video page](https://youmind.com/en-US/seedance-2-0-prompts?id=4050)
-
 <iframe src="https://iframe.cloudflarestream.com/afe14b9312703c4a0fc977d564b3994f" style="border: none; width: 720px; max-width: 100%; aspect-ratio: 16 / 9;" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
 
 **视频/图片预览：**
@@ -429,8 +415,6 @@ A cinematic sequence featuring a glowing film strip displaying romantic memories
 **Source:** [Original post](https://x.com/churvikv/status/2050655860846690351)
 
 **Published:** May 2, 2026
-
-**Watch:** [YouMind video page](https://youmind.com/en-US/seedance-2-0-prompts?id=4039)
 
 <iframe src="https://iframe.cloudflarestream.com/ca5b2225efce5d971334f80663005f2d" style="border: none; width: 720px; max-width: 100%; aspect-ratio: 16 / 9;" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
 
@@ -458,8 +442,6 @@ A prompt for transforming a 3x3 storyboard into a 15-second cinematic Western sh
 **Source:** [Original post](https://x.com/ai_gezgini/status/2050645169452863863)
 
 **Published:** May 2, 2026
-
-**Watch:** [YouMind video page](https://youmind.com/en-US/seedance-2-0-prompts?id=4028)
 
 <iframe src="https://iframe.cloudflarestream.com/df052035796f092cc28c758b15f4b516" style="border: none; width: 720px; max-width: 100%; aspect-ratio: 16 / 9;" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
 
@@ -490,8 +472,6 @@ A video prompt for creating an organic, Instagram-style 'Get Ready With Me' clip
 
 **Published:** May 2, 2026
 
-**Watch:** [YouMind video page](https://youmind.com/en-US/seedance-2-0-prompts?id=4030)
-
 <iframe src="https://iframe.cloudflarestream.com/1d2c58e501dd6395cb8547eb1d26029a" style="border: none; width: 720px; max-width: 100%; aspect-ratio: 16 / 9;" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
 
 **视频/图片预览：**
@@ -521,8 +501,6 @@ An ultra-cinematic action sequence involving a cybernetic gunslinger in a neon-l
 **Source:** [Original post](https://x.com/LudovicCreator/status/2050640233553657935)
 
 **Published:** May 2, 2026
-
-**Watch:** [YouMind video page](https://youmind.com/en-US/seedance-2-0-prompts?id=4042)
 
 <iframe src="https://iframe.cloudflarestream.com/6a542b0621e83a3982b6ab3ea46d3249" style="border: none; width: 720px; max-width: 100%; aspect-ratio: 16 / 9;" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
 
@@ -584,8 +562,6 @@ A high-octane FPV drone-style video prompt capturing a professional snowboarder 
 
 **Published:** May 2, 2026
 
-**Watch:** [YouMind video page](https://youmind.com/en-US/seedance-2-0-prompts?id=4024)
-
 <iframe src="https://iframe.cloudflarestream.com/7fa6e6e90a6eb629033c57045ff28394" style="border: none; width: 720px; max-width: 100%; aspect-ratio: 16 / 9;" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
 
 **视频/图片预览：**
@@ -626,8 +602,6 @@ A narrative-driven prompt for Seedance 2.0 designed to create a stylized 3D anim
 
 **Published:** May 2, 2026
 
-**Watch:** [YouMind video page](https://youmind.com/en-US/seedance-2-0-prompts?id=4058)
-
 <iframe src="https://iframe.cloudflarestream.com/e6c3e49d4e526f1db68144d939931db3" style="border: none; width: 720px; max-width: 100%; aspect-ratio: 16 / 9;" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
 
 **视频/图片预览：**
@@ -649,8 +623,6 @@ An immersive FPV drone-style prompt flying through the detailed architecture and
 **Source:** [Original post](https://x.com/shushant_l/status/2050591261820878904)
 
 **Published:** May 2, 2026
-
-**Watch:** [YouMind video page](https://youmind.com/en-US/seedance-2-0-prompts?id=4046)
 
 <iframe src="https://iframe.cloudflarestream.com/89f62128322218bce219732c0c5aaf62" style="border: none; width: 720px; max-width: 100%; aspect-ratio: 16 / 9;" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
 
