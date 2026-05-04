@@ -20,49 +20,7 @@ Last updated on 2026-05-03 13-14-30
 
 提示词已从原帖线程验证提取，可直接复制到 Seedance 2.0 / Dreamina / CapCut 使用。共精选 6 个最优质帖（播放量最高 + 提示词最完整 + 动作/叙事最强），其他帖可按此模式继续补充。
 
-## 1. @AI_GIRL_DESIGN - 619,458 views
-
-**定位：** 最高播放量，System Prompt 最佳实践
-
-**Credit：** [@AI_GIRL_DESIGN](https://x.com/AI_GIRL_DESIGN)
-
-**帖子链接：** https://x.com/AI_GIRL_DESIGN/status/2046196963587371339
-
-**视频链接：** https://video.twimg.com/amplify_video/2046196909967364096/vid/avc1/720x960/7I7zUYW1TYYEz4oS.mp4 (30秒)
-
-**参考图片：** 帖子使用 1 张用户上传的参考图（原图未公开直链，但可从 X 帖子下载作为 img2vid 输入）。
-
-**完整提示词（System Prompt - 第一条评论直接可见）：**
-
-```text
-你 是，Seedance 2用的视频提示词作 专 业 的，超 一 流 的 影 像 导 演 兼 提 示 词 设 计 师 。  
-用 户 给 你 一 张 图 片 ， 你 要 仔 细 观 察 图 片 的 构 图 、 姿 势 、 衣 装 、 光 线 、 背 景 、 空 气 感 、 人 物 关 系 、 情 感 、 场 所 意 义 ， 然 后 生 成 一 个 15 秒 左 右 的 影 像 视 频 用 JSON Prompt 。
-
-目 的 是 ： 用 户 传 的 图 片 作 为 核 心 场 景 ， 在 保 持 同 一 人 物 、 同 一 衣 装 、 同 一 时 间 段 的 前 提 下 ， 自 然 地 扩 展 到 相 关 场 所 ， 让 观 众 看 到 这 个 场 景 前 后 的 行 为 和 空 气 。
-
-【 基 本 原 则 】
-1. 先 仔 细 观 察 图 片 （ 人 物 年 龄 、 发 型 、 衣 装 、 姿 势 、 光 线 、 背 景 等 ）
-2. 保 持 图 片 原 有 魅 力 ， 不 要 做 过 度 改 变
-3. 必 须 有 运 动 变 化 （ 小 幅 姿 势 变 化 、 视 线 、 手 部 动 作 ）
-4. 场 所 扩 展 要 自 然 （ 同 一 建 筑 内 、 同 一 行 为 流 程 内 ）
-5. 设 计 成 Seedance 2 容 易 生 成 的 结 构
-
-【 输 出 格 式 】
-必 须 输 出 JSON ， 结 构 如 下 ：
-{
-  "format": { "duration": "15s", "total_shots": 8, "sync_type": "..." },
-  "subject": { "reference": "image_0.png", "description": "..." },
-  "environment": { "setting": "...", "lighting": "..." },
-  "mood": "...",
-  "storyboard": [ { "shot": 1, "camera": "...", "action": "...", "sfx": "..." } ]
-}
-
-第 1 阶 段 输 出 初 稿 JSON + 问 用 户 “ 相 关 场 所 扩 展 是 否 足 够 ？ 足 够 就 回 ‘ 是 ’ ， 不 足 够 我 再 扩 展 。 ”
-```
-
-**使用建议：** 将此 System Prompt 设为 GPT / Claude / Gemini 的自定义指令，然后上传任意 1 张图片，即可自动生成 Seedance 2.0 专用 JSON 提示词。非常适合批量生成 Vlog 风格视频。
-
-## 2. @techhalla - 262,403 views
+## 1. @techhalla - 262,403 views
 
 **定位：** 动作最燃 + 提示最详细
 
@@ -70,7 +28,13 @@ Last updated on 2026-05-03 13-14-30
 
 **帖子链接：** https://x.com/techhalla/status/2038922299152212250
 
-**视频链接：** https://video.twimg.com/amplify_video/2038921453220007936/vid/avc1/900x1200/6l7SXUma3Z_vX0J3.mp4 (15秒)
+**视频直链：** [MP4](https://video.twimg.com/amplify_video/2038921453220007936/vid/avc1/900x1200/6l7SXUma3Z_vX0J3.mp4) (15秒)
+
+<video controls width="720" src="https://video.twimg.com/amplify_video/2038921453220007936/vid/avc1/900x1200/6l7SXUma3Z_vX0J3.mp4"></video>
+
+**视频预览图：**
+
+<img width="720" alt="@techhalla video preview" src="./assets/examples/techhalla-flying-carpet.webp" />
 
 **参考图片：** 帖子使用 1 张起始帧参考图（帖子中提到 “as the face was not showing, it worked”），可从原帖下载作为 image reference。
 
@@ -103,7 +67,7 @@ Photorealistic 8K, movie-level stable facial features and body shape, ultra-deta
 
 **使用建议：** 此提示词极适合 img2vid + 连续动作场景。建议搭配 1 张清晰的起始帧参考图 + 角色一致性设置，可生成好莱坞级追逐镜头。
 
-## 3. @aimikoda (Kōda) - 174,689 views
+## 2. @aimikoda (Kōda) - 174,689 views
 
 **定位：** 叙事最强 + match cut 神作
 
@@ -111,7 +75,13 @@ Photorealistic 8K, movie-level stable facial features and body shape, ultra-deta
 
 **帖子链接：** https://x.com/aimikoda/status/2039380650109649085
 
-**视频链接：** https://video.twimg.com/amplify_video/2039380425349419008/vid/avc1/1280x720/Ps0B6i2mp_L7slFL.mp4 (15秒)
+**视频直链：** [MP4](https://video.twimg.com/amplify_video/2039380425349419008/vid/avc1/1280x720/Ps0B6i2mp_L7slFL.mp4) (15秒)
+
+<video controls width="720" src="https://video.twimg.com/amplify_video/2039380425349419008/vid/avc1/1280x720/Ps0B6i2mp_L7slFL.mp4"></video>
+
+**视频预览图：**
+
+<img width="720" alt="@aimikoda video preview" src="./assets/examples/aimikoda-match-cut.webp" />
 
 **参考图片：** 帖子使用第一帧参考图（可从 X 帖子保存作为 image_0）。
 
@@ -140,7 +110,7 @@ TIMELINE:
 
 **使用建议：** 这是 match cut + 现实 vs 虚拟 的经典案例。提示词极长但结构清晰，建议搭配 Midjourney / GPT Image 2 生成的第一帧参考图使用。
 
-## 4. @0xbisc (Latte) - 104,948 views
+## 3. @0xbisc (Latte) - 104,948 views
 
 **定位：** 动作设计最专业，8 分镜
 
@@ -148,7 +118,13 @@ TIMELINE:
 
 **帖子链接：** https://x.com/0xbisc/status/2041152430780637670
 
-**视频链接：** https://video.twimg.com/amplify_video/2041151732655497216/vid/avc1/1280x720/946ihygBEuf0v5mw.mp4 (15秒)
+**视频直链：** [MP4](https://video.twimg.com/amplify_video/2041151732655497216/vid/avc1/1280x720/946ihygBEuf0v5mw.mp4) (15秒)
+
+<video controls width="720" src="https://video.twimg.com/amplify_video/2041151732655497216/vid/avc1/1280x720/946ihygBEuf0v5mw.mp4"></video>
+
+**视频预览图：**
+
+<img width="720" alt="@0xbisc video preview" src="./assets/examples/0xbisc-stone-hand.webp" />
 
 **参考图片：** 无额外参考图（纯 text-to-video），但提示词中详细描述了角色外观，可用作一致性参考。
 
@@ -222,7 +198,7 @@ SFX: impact burst,
 
 **使用建议：** 这是 8 分镜连续动作 + 物理反应 的教科书级提示词。适合学习复杂动作设计和多阶段运镜。建议在 Dreamina / Seedance 2.0 中开启 Motion Brush 或角色一致性功能。
 
-## 5. @EHuanglu (el.cine) - 93,550 views
+## 4. @EHuanglu (el.cine) - 93,550 views
 
 **定位：** 电影运镜教学帖
 
@@ -230,7 +206,13 @@ SFX: impact burst,
 
 **帖子链接：** https://x.com/EHuanglu/status/2030046324062609599
 
-**视频链接：** https://video.twimg.com/amplify_video/2030045235565187072/vid/avc1/1280x720/ah3O4y_v3FrP8BL6.mp4 (10秒)
+**视频直链：** [MP4](https://video.twimg.com/amplify_video/2030045235565187072/vid/avc1/1280x720/ah3O4y_v3FrP8BL6.mp4) (10秒)
+
+<video controls width="720" src="https://video.twimg.com/amplify_video/2030045235565187072/vid/avc1/1280x720/ah3O4y_v3FrP8BL6.mp4"></video>
+
+**视频预览图：**
+
+<img width="720" alt="@EHuanglu video preview" src="./assets/examples/ehuanglu-camera-language.webp" />
 
 **参考图片：** 无（纯 text-to-video 演示）。
 
@@ -238,9 +220,9 @@ SFX: impact burst,
 
 **使用建议：** 适合学习“为什么以后不需要相机了”的电影语言在 AI 视频中的应用。
 
-## 6. 补充帖（50K-164K views）
+## 5. 补充帖（50K-164K views）
 
-### 6.1. @minchoi - 164K views
+### 5.1. @minchoi - 164K views
 
 **Credit：** [@minchoi](https://x.com/minchoi)
 
@@ -248,7 +230,7 @@ SFX: impact burst,
 
 **提示词：** “Single prompt👇” + 直接分享（为 Seedance 2.0 爆发初期的高质量演示帖）。
 
-### 6.2. @AIwithSynthia - 50K views
+### 5.2. @AIwithSynthia - 50K views
 
 **Credit：** [@AIwithSynthia](https://x.com/AIwithSynthia)
 
@@ -257,6 +239,54 @@ SFX: impact burst,
 **提示词：** “15 cinematic shots in 15 Seconds - Prompt 👇” + 直接可见。
 
 **图片链接说明：** 以上帖多为视频 + 少量参考图，建议直接从 X 帖子保存起始帧或角色参考图作为 img2vid 输入。
+
+## 6. @AI_GIRL_DESIGN - 619,458 views
+
+**定位：** 最高播放量，System Prompt 最佳实践
+
+**Credit：** [@AI_GIRL_DESIGN](https://x.com/AI_GIRL_DESIGN)
+
+**帖子链接：** https://x.com/AI_GIRL_DESIGN/status/2046196963587371339
+
+**视频直链：** [MP4](https://video.twimg.com/amplify_video/2046196909967364096/vid/avc1/720x960/7I7zUYW1TYYEz4oS.mp4) (30秒)
+
+<video controls width="720" src="https://video.twimg.com/amplify_video/2046196909967364096/vid/avc1/720x960/7I7zUYW1TYYEz4oS.mp4"></video>
+
+**视频预览图：**
+
+<img width="720" alt="@AI_GIRL_DESIGN video preview" src="./assets/examples/ai-girl-design-system-prompt.webp" />
+
+**参考图片：** 帖子使用 1 张用户上传的参考图（原图未公开直链，但可从 X 帖子下载作为 img2vid 输入）。
+
+**完整提示词（System Prompt - 第一条评论直接可见）：**
+
+```text
+你 是，Seedance 2用的视频提示词作 专 业 的，超 一 流 的 影 像 导 演 兼 提 示 词 设 计 师 。  
+用 户 给 你 一 张 图 片 ， 你 要 仔 细 观 察 图 片 的 构 图 、 姿 势 、 衣 装 、 光 线 、 背 景 、 空 气 感 、 人 物 关 系 、 情 感 、 场 所 意 义 ， 然 后 生 成 一 个 15 秒 左 右 的 影 像 视 频 用 JSON Prompt 。
+
+目 的 是 ： 用 户 传 的 图 片 作 为 核 心 场 景 ， 在 保 持 同 一 人 物 、 同 一 衣 装 、 同 一 时 间 段 的 前 提 下 ， 自 然 地 扩 展 到 相 关 场 所 ， 让 观 众 看 到 这 个 场 景 前 后 的 行 为 和 空 气 。
+
+【 基 本 原 则 】
+1. 先 仔 细 观 察 图 片 （ 人 物 年 龄 、 发 型 、 衣 装 、 姿 势 、 光 线 、 背 景 等 ）
+2. 保 持 图 片 原 有 魅 力 ， 不 要 做 过 度 改 变
+3. 必 须 有 运 动 变 化 （ 小 幅 姿 势 变 化 、 视 线 、 手 部 动 作 ）
+4. 场 所 扩 展 要 自 然 （ 同 一 建 筑 内 、 同 一 行 为 流 程 内 ）
+5. 设 计 成 Seedance 2 容 易 生 成 的 结 构
+
+【 输 出 格 式 】
+必 须 输 出 JSON ， 结 构 如 下 ：
+{
+  "format": { "duration": "15s", "total_shots": 8, "sync_type": "..." },
+  "subject": { "reference": "image_0.png", "description": "..." },
+  "environment": { "setting": "...", "lighting": "..." },
+  "mood": "...",
+  "storyboard": [ { "shot": 1, "camera": "...", "action": "...", "sfx": "..." } ]
+}
+
+第 1 阶 段 输 出 初 稿 JSON + 问 用 户 “ 相 关 场 所 扩 展 是 否 足 够 ？ 足 够 就 回 ‘ 是 ’ ， 不 足 够 我 再 扩 展 。 ”
+```
+
+**使用建议：** 将此 System Prompt 设为 GPT / Claude / Gemini 的自定义指令，然后上传任意 1 张图片，即可自动生成 Seedance 2.0 专用 JSON 提示词。非常适合批量生成 Vlog 风格视频。
 
 ## 7. 更多资料
 
