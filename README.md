@@ -2,6 +2,10 @@ Last updated on 2026-05-05 00-26-48
 
 ## 更多资料：[Martini Art Repo](https://github.com/MartiniArt/awesome-seedance-2-prompt)
 
+> Curated Seedance 2 prompts, paired with the [Martini canvas](https://martini.art/en/blog/awesome-seedance-2-prompts).
+> Read the full handbook: [Seedance 2 Handbook](https://martini.art/en/blog/seedance-2-handbook).
+> Browse the live prompt libraries: [product](https://martini.art/en/prompts/video/product-ad-prompts) · [image-to-video](https://martini.art/en/prompts/video/image-to-video-prompts).
+
 # Awesome Seedance 2.0 🎬
 
 [![Martini Art stars](https://img.shields.io/github/stars/MartiniArt/awesome-seedance-2-prompt?style=social)](https://github.com/MartiniArt/awesome-seedance-2-prompt/stargazers)
