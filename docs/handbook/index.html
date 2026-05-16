@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Seedance 2 Handbook — Variants, Workflows, and Production Use | Martini Art</title>
+<meta name="description" content="Hands-on Seedance 2 handbook: model variants, where each one wins, prompt structure, parameters, and production workflows on the Martini Art canvas.">
+<meta name="keywords" content="Seedance 2 handbook, Seedance 2 guide, Seedance variants, Seedance Pro, Seedance Lite, ByteDance video model, Seedance API, AI video workflow, Martini Art">
+<meta name="author" content="Martini Art">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="canonical" href="https://martini.art/en/blog/seedance-2-handbook">
+<link rel="alternate" hreflang="en" href="https://martiniart.github.io/awesome-seedance-2-prompt/handbook/">
+<link rel="alternate" hreflang="zh-CN" href="https://martiniart.github.io/awesome-seedance-2-prompt/handbook/zh-CN/">
+<link rel="alternate" hreflang="x-default" href="https://martiniart.github.io/awesome-seedance-2-prompt/handbook/">
+<meta property="og:title" content="Seedance 2 Handbook: Variants, Best Workflows, and How to Use It on Martini">
+<meta property="og:description" content="Hands-on guide to Seedance 2 — variants, strengths, and the production workflows it fits on Martini's canvas.">
+<meta property="og:url" content="https://martiniart.github.io/awesome-seedance-2-prompt/handbook/">
+<meta property="og:site_name" content="Martini Art">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://martini.art/og-image.webp">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Seedance 2 Handbook">
+<meta name="twitter:description" content="Variants, strengths, and production workflows for Seedance 2 on Martini.">
+<meta name="twitter:image" content="https://martini.art/og-image.webp">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "TechArticle",
+      "@id": "https://martiniart.github.io/awesome-seedance-2-prompt/handbook/#article",
+      "headline": "Seedance 2 Handbook: Variants, Best Workflows, and How to Use It on Martini",
+      "description": "Hands-on Seedance 2 handbook covering variants, strengths, prompt structure, and production workflows.",
+      "inLanguage": "en",
+      "mainEntityOfPage": "https://martini.art/en/blog/seedance-2-handbook",
+      "author": { "@type": "Organization", "name": "Martini Art", "url": "https://martini.art/" },
+      "publisher": { "@type": "Organization", "name": "Martini Art", "url": "https://martini.art/" },
+      "proficiencyLevel": "Beginner",
+      "about": [
+        { "@type": "Thing", "name": "Seedance 2" },
+        { "@type": "Thing", "name": "Video generation workflow" }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Martini Art", "item": "https://martini.art/" },
+        { "@type": "ListItem", "position": 2, "name": "Awesome Seedance 2", "item": "https://martiniart.github.io/awesome-seedance-2-prompt/" },
+        { "@type": "ListItem", "position": 3, "name": "Seedance 2 Handbook", "item": "https://martiniart.github.io/awesome-seedance-2-prompt/handbook/" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Which Seedance 2 variant should I use?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Use Seedance 2 Pro for hero shots and final renders, Seedance 2 Lite for quick iteration and bulk variations, and Seedance 2 i2v when you have a source image you want to bring into motion." }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Seedance 2 support image-to-video?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Yes. The image-to-video variant keeps the subject identity stable while applying camera moves and motion you describe in the prompt." }
+        },
+        {
+          "@type": "Question",
+          "name": "Where do I get the API?",
+          "acceptedAnswer": { "@type": "Answer", "text": "ByteDance ships Seedance via their official API. Martini Art's canvas wraps it alongside Veo 3.1, Kling 3.0, Soul V2, and Nano Banana 2 so you can compare and stitch without writing API code." }
+        }
+      ]
+    }
+  ]
+}
+</script>
+<style>
+  :root { --fg:#111; --muted:#555; --bg:#fff; --accent:#b8336a; --rule:#eee; --soft:#fafafa; }
+  * { box-sizing: border-box; }
+  body { font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; color: var(--fg); background: var(--bg); margin: 0; }
+  main { max-width: 760px; margin: 0 auto; padding: 48px 24px 96px; }
+  header { border-bottom: 1px solid var(--rule); padding-bottom: 24px; margin-bottom: 32px; }
+  nav.crumbs { font-size: 13px; color: var(--muted); margin-bottom: 16px; }
+  nav.crumbs a { color: var(--muted); }
+  h1 { font-size: 32px; line-height: 1.25; margin: 0 0 12px; }
+  h2 { font-size: 22px; margin: 40px 0 12px; }
+  h3 { font-size: 17px; margin: 24px 0 8px; }
+  a { color: var(--accent); text-decoration: underline; }
+  a:hover { text-decoration: none; }
+  ul { padding-left: 22px; }
+  .lang { float: right; font-size: 14px; color: var(--muted); }
+  .lang a { color: var(--muted); margin-left: 12px; }
+  .card { background: var(--soft); border: 1px solid var(--rule); border-radius: 8px; padding: 16px 20px; margin: 16px 0; }
+  .card p:last-child { margin-bottom: 0; }
+  footer { margin-top: 64px; padding-top: 24px; border-top: 1px solid var(--rule); font-size: 14px; color: var(--muted); }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 15px; }
+  th, td { text-align: left; padding: 10px 8px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+  th { color: var(--muted); font-weight: 600; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <span class="lang"><a href="./zh-CN/">中文</a> · <a href="../">Prompts</a></span>
+    <nav class="crumbs"><a href="https://martini.art/">Martini Art</a> › <a href="../">Awesome Seedance 2</a> › Handbook</nav>
+    <h1>Seedance 2 Handbook</h1>
+    <p>A hands-on guide to ByteDance's <strong>Seedance 2.0</strong>: the variants you actually need, where each one wins, and how to wire it into a production video workflow on the <a href="https://martini.art/">Martini Art canvas</a>. The full editorial version lives at <a href="https://martini.art/en/blog/seedance-2-handbook">martini.art/en/blog/seedance-2-handbook</a>.</p>
+  </header>
+
+  <div class="card">
+    <p><strong>Companion library:</strong> <a href="../">Awesome Seedance 2 Prompts</a> — copy-paste prompt recipes paired with example clips. Or read the <a href="https://martini.art/en/blog/awesome-seedance-2-prompts">original prompts article</a> on Martini Art.</p>
+  </div>
+
+  <h2>Variants at a glance</h2>
+  <table>
+    <thead><tr><th>Variant</th><th>Best for</th><th>Trade-off</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Seedance 2 Pro</strong></td><td>Hero shots, final renders, client deliverables</td><td>Slowest, highest cost per second</td></tr>
+      <tr><td><strong>Seedance 2 Lite</strong></td><td>Iteration, A/B prompt testing, bulk variations</td><td>Slightly softer motion at edges</td></tr>
+      <tr><td><strong>Seedance 2 i2v</strong></td><td>Image-to-video — animate an existing still</td><td>Quality bounded by the source image</td></tr>
+    </tbody>
+  </table>
+
+  <h2>What Seedance 2 is good at</h2>
+  <ul>
+    <li><strong>Physics</strong> — fabric, liquid, hair, and contact behave plausibly</li>
+    <li><strong>Camera control</strong> — dolly, push-in, orbit, parallax, crane reliably follow the prompt</li>
+    <li><strong>Subject identity</strong> — faces, products, and characters hold across the clip</li>
+    <li><strong>Lighting consistency</strong> — exposure and color stay stable through a shot</li>
+  </ul>
+
+  <h2>Production workflow</h2>
+  <p>The workflow we recommend on the <a href="https://martini.art/">Martini Art canvas</a>:</p>
+  <ol>
+    <li>Draft your prompt using a recipe from <a href="../">Awesome Seedance 2 Prompts</a></li>
+    <li>Run a quick Seedance 2 Lite batch (4–8 variants) to lock the motion direction</li>
+    <li>Optionally compare against Veo 3.1 or Kling 3.0 on the same prompt — the canvas runs them in parallel</li>
+    <li>Promote the winning seed to Seedance 2 Pro for the final render</li>
+    <li>Stitch multi-shot scenes on the canvas timeline with Soul V2 for character continuity</li>
+  </ol>
+
+  <h2>Read the full handbook</h2>
+  <p>The complete handbook on Martini Art covers prompt structure, parameter tuning, motion vocabulary, and worked examples with video:</p>
+  <ul>
+    <li><a href="https://martini.art/en/blog/seedance-2-handbook">Seedance 2 Handbook — full article (English)</a></li>
+    <li><a href="https://martini.art/zh-CN/blog/seedance-2-handbook">Seedance 2 完整手册 — Chinese</a></li>
+  </ul>
+
+  <h2>FAQ</h2>
+  <h3>Which Seedance 2 variant should I use?</h3>
+  <p>Pro for finals, Lite for iteration, i2v when you have a source image. See the table above for the full trade-off.</p>
+  <h3>Does Seedance 2 support image-to-video?</h3>
+  <p>Yes. The i2v variant keeps subject identity stable while applying the motion and camera moves you describe in the prompt. Recipes are in the <a href="../">prompts library</a>.</p>
+  <h3>Where do I get the API?</h3>
+  <p>ByteDance ships Seedance via their official API. <a href="https://martini.art/">Martini Art</a> wraps it alongside Veo 3.1, Kling 3.0, Soul V2, and Nano Banana 2 so you can compare and stitch without writing API code.</p>
+
+  <footer>
+    Maintained by <a href="https://martini.art/">Martini Art</a>. Source on <a href="https://github.com/MartiniArt/awesome-seedance-2-prompt">GitHub</a>. Read the <a href="https://martini.art/en/blog/seedance-2-handbook">full handbook</a>.
+  </footer>
+</main>
+</body>
+</html>

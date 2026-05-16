@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Awesome Seedance 2 提示词合集 — 开源精选 | Martini Art</title>
+<meta name="description" content="精选 Seedance 2.0 提示词库:产品广告、图生视频、人物一致性、电影感运镜的即取即用配方。由 Martini Art 在 GitHub 上维护,可在 Martini 画布上直接运行。">
+<meta name="keywords" content="Seedance 2, Seedance 2.0, Seedance 提示词, 字节跳动视频模型, 文生视频, 图生视频, 产品广告提示词, AI 视频生成, Martini Art">
+<meta name="author" content="Martini Art">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="canonical" href="https://martini.art/zh-CN/blog/awesome-seedance-2-prompts">
+<link rel="alternate" hreflang="en" href="https://martiniart.github.io/awesome-seedance-2-prompt/">
+<link rel="alternate" hreflang="zh-CN" href="https://martiniart.github.io/awesome-seedance-2-prompt/zh-CN/">
+<link rel="alternate" hreflang="x-default" href="https://martiniart.github.io/awesome-seedance-2-prompt/">
+<meta property="og:title" content="Awesome Seedance 2 提示词合集:开源精选库">
+<meta property="og:description" content="精选 Seedance 2.0 提示词库:产品广告、图生视频、人物一致性、电影感运镜的即取即用配方。">
+<meta property="og:url" content="https://martiniart.github.io/awesome-seedance-2-prompt/zh-CN/">
+<meta property="og:site_name" content="Martini Art">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://martini.art/og-image.webp">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Awesome Seedance 2 提示词合集">
+<meta name="twitter:description" content="Martini Art 维护的 Seedance 2 开源提示词库。">
+<meta name="twitter:image" content="https://martini.art/og-image.webp">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://martiniart.github.io/awesome-seedance-2-prompt/zh-CN/#article",
+      "headline": "Awesome Seedance 2 提示词合集:开源精选库",
+      "description": "精选 Seedance 2.0 提示词库:产品广告、图生视频、人物一致性、电影感运镜的即取即用配方。",
+      "inLanguage": "zh-CN",
+      "mainEntityOfPage": "https://martini.art/zh-CN/blog/awesome-seedance-2-prompts",
+      "author": { "@type": "Organization", "name": "Martini Art", "url": "https://martini.art/" },
+      "publisher": { "@type": "Organization", "name": "Martini Art", "url": "https://martini.art/" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Martini Art", "item": "https://martini.art/" },
+        { "@type": "ListItem", "position": 2, "name": "Awesome Seedance 2 提示词合集", "item": "https://martiniart.github.io/awesome-seedance-2-prompt/zh-CN/" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "什么是 Seedance 2?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Seedance 2.0 是字节跳动推出的视频生成模型,支持文生视频与图生视频,具有强物理表现、可控运镜和稳定主体一致性。" }
+        },
+        {
+          "@type": "Question",
+          "name": "怎么运行这些提示词?",
+          "acceptedAnswer": { "@type": "Answer", "text": "所有提示词都可以直接在 Martini Art 画布上运行,画布同时编排 Seedance 2.0、Veo 3.1、Kling 3.0、Soul V2、Nano Banana 2。也可以直接粘贴到字节跳动 Seedance 官方 API。" }
+        },
+        {
+          "@type": "Question",
+          "name": "提示词可以免费使用吗?",
+          "acceptedAnswer": { "@type": "Answer", "text": "可以。仓库开源,提示词允许署名转载使用,署名 Martini Art。" }
+        }
+      ]
+    }
+  ]
+}
+</script>
+<style>
+  :root { --fg:#111; --muted:#555; --bg:#fff; --accent:#b8336a; --rule:#eee; --soft:#fafafa; }
+  * { box-sizing: border-box; }
+  body { font: 16px/1.75 -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; color: var(--fg); background: var(--bg); margin: 0; }
+  main { max-width: 760px; margin: 0 auto; padding: 48px 24px 96px; }
+  header { border-bottom: 1px solid var(--rule); padding-bottom: 24px; margin-bottom: 32px; }
+  nav.crumbs { font-size: 13px; color: var(--muted); margin-bottom: 16px; }
+  nav.crumbs a { color: var(--muted); }
+  h1 { font-size: 30px; line-height: 1.3; margin: 0 0 12px; }
+  h2 { font-size: 21px; margin: 40px 0 12px; }
+  h3 { font-size: 17px; margin: 24px 0 8px; }
+  a { color: var(--accent); text-decoration: underline; }
+  a:hover { text-decoration: none; }
+  ul { padding-left: 22px; }
+  .lang { float: right; font-size: 14px; color: var(--muted); }
+  .lang a { color: var(--muted); margin-left: 12px; }
+  .card { background: var(--soft); border: 1px solid var(--rule); border-radius: 8px; padding: 16px 20px; margin: 16px 0; }
+  .card p:last-child { margin-bottom: 0; }
+  footer { margin-top: 64px; padding-top: 24px; border-top: 1px solid var(--rule); font-size: 14px; color: var(--muted); }
+  .pages { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; margin: 16px 0; }
+  .pages a { display: block; padding: 14px 16px; border: 1px solid var(--rule); border-radius: 8px; text-decoration: none; color: var(--fg); }
+  .pages a:hover { border-color: var(--accent); }
+  .pages strong { display: block; color: var(--accent); margin-bottom: 4px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <span class="lang"><a href="../">English</a> · <a href="../handbook/zh-CN/">手册</a></span>
+    <nav class="crumbs"><a href="https://martini.art/">Martini Art</a> › Awesome Seedance 2 提示词合集</nav>
+    <h1>Awesome Seedance 2 提示词合集</h1>
+    <p>由 <a href="https://martini.art/">Martini Art</a> 维护的开源提示词库,面向字节跳动 <strong>Seedance 2.0</strong> 视频生成模型。完整图文与视频版讲解请前往 <a href="https://martini.art/zh-CN/blog/awesome-seedance-2-prompts">Martini Art 原文</a>。</p>
+  </header>
+
+  <div class="card">
+    <p><strong>配套指南:</strong> <a href="https://martini.art/zh-CN/blog/seedance-2-handbook">Seedance 2 完整手册</a> — 模型版本、能力边界与适用工作流。或浏览 <a href="../handbook/zh-CN/">手册着陆页</a>。</p>
+  </div>
+
+  <h2>合集内容</h2>
+  <p>Seedance 2.0 是 2026 年最强的文生视频/图生视频模型之一。本仓库收录的提示词都经过实战验证,能产出干净的运动、稳定的物理与跨镜头一致的人物。每条提示词都附带完整文本、推荐参数、源图(图生视频时)以及一段生成示例。</p>
+  <ul>
+    <li><strong>产品广告提示词</strong> — 360° 旋转、材质表现、包装特写、生活场景</li>
+    <li><strong>图生视频提示词</strong> — 让静态图动起来,主体身份保持稳定</li>
+    <li><strong>电影感运镜</strong> — 推、拉、横移、视差、环绕、升降</li>
+    <li><strong>人物一致性</strong> — 多镜头同一张脸与同一套服装</li>
+    <li><strong>强物理运动</strong> — 流体、布料、头发、光影互动</li>
+  </ul>
+
+  <h2>运行这些提示词</h2>
+  <p>合集中的每条提示词都可以直接在 <a href="https://martini.art/">Martini Art 画布</a> 上运行,画布在同一条时间线上同时编排 Seedance 2.0、Veo 3.1、Kling 3.0、Soul V2、Nano Banana 2。画布还会处理种子延续、批量变体与多镜头拼接。也可以直接粘贴到字节跳动 Seedance 官方 API。</p>
+  <ul>
+    <li><a href="https://martini.art/zh-CN/prompts/video/product-ad-prompts">产品广告提示词库</a></li>
+    <li><a href="https://martini.art/zh-CN/prompts/video/image-to-video-prompts">图生视频提示词库</a></li>
+  </ul>
+
+  <h2>更多入口</h2>
+  <div class="pages">
+    <a href="https://martini.art/zh-CN/blog/awesome-seedance-2-prompts"><strong>完整文章 →</strong>含视频示例与详细解释</a>
+    <a href="https://martini.art/zh-CN/blog/seedance-2-handbook"><strong>Seedance 2 手册 →</strong>模型深度解析与版本对比</a>
+    <a href="https://github.com/MartiniArt/awesome-seedance-2-prompt"><strong>GitHub 仓库 →</strong>源码、README、贡献指南</a>
+    <a href="../"><strong>English →</strong>English landing page</a>
+  </div>
+
+  <h2>常见问题</h2>
+  <h3>什么是 Seedance 2?</h3>
+  <p>Seedance 2.0 是字节跳动旗舰视频生成模型,文生视频/图生视频双轨,具备强物理表现、可控运镜与跨镜头主体一致性。</p>
+  <h3>怎么运行这些提示词?</h3>
+  <p>最快的方式是 <a href="https://martini.art/">Martini Art 画布</a>:把提示词粘进去,即可在 Seedance 2.0 上运行,也可以一键和 Veo 3.1、Kling 3.0 做横评。高级用户可以直接调用 Seedance 官方 API。</p>
+  <h3>提示词可以免费使用吗?</h3>
+  <p>可以。仓库开源,提示词可署名 <a href="https://martini.art/">Martini Art</a> 后转载使用。</p>
+
+  <footer>
+    由 <a href="https://martini.art/">Martini Art</a> 维护。源码在 <a href="https://github.com/MartiniArt/awesome-seedance-2-prompt">GitHub</a>。阅读 <a href="https://martini.art/zh-CN/blog/awesome-seedance-2-prompts">完整文章</a> 或 <a href="https://martini.art/zh-CN/blog/seedance-2-handbook">Seedance 2 手册</a>。
+  </footer>
+</main>
+</body>
+</html>

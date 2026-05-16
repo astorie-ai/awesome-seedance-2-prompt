@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://martiniart.github.io/awesome-seedance-2-prompt/sitemap.xml

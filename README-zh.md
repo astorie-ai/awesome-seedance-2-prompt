@@ -1,19 +1,18 @@
 Last updated on 2026-05-16 12-18-56
 
-> Curated Seedance 2 prompts, paired with the [Martini canvas](https://martini.art/en/blog/awesome-seedance-2-prompts).
-> Read the full handbook: [Seedance 2 Handbook](https://martini.art/en/blog/seedance-2-handbook).
-> Browse the live prompt libraries: [product](https://martini.art/en/prompts/video/product-ad-prompts) · [image-to-video](https://martini.art/en/prompts/video/image-to-video-prompts).
+# Awesome Seedance 2.0 — 提示词精选库 🎬
 
-
-# Awesome Seedance 2.0 🎬
+> **开源 Seedance 2.0 提示词合集** — 涵盖**产品广告、图生视频、人物一致性、电影感运镜**的即取即用配方。由 [Martini Art](https://martini.art/) 维护,每条提示词都可直接在 [Martini Art 画布](https://martini.art/) 上运行,可与 Veo 3.1、Kling 3.0、Soul V2、Nano Banana 2 并排对比。
 
 [![Martini Art stars](https://img.shields.io/github/stars/MartiniArt/awesome-seedance-2-prompt?style=social)](https://github.com/MartiniArt/awesome-seedance-2-prompt/stargazers)
 
 | [English](./README.md) | [简体中文](./README-zh.md) | [Deutsch](./README-de.md) | [Francais](./README-fr.md) | [Espanol](./README-es.md) | [日本語](./README-ja.md) |
 
-> **Seedance 2.0（Martini Art）** 优质提示词、视频生成技巧以及高级 **Martini Art** 实验资源的精选集合。
+**📖 Martini Art 原文:** [Awesome Seedance 2 提示词合集(完整文章)](https://martini.art/zh-CN/blog/awesome-seedance-2-prompts) · [Seedance 2 完整手册(模型深度解析)](https://martini.art/zh-CN/blog/seedance-2-handbook)
 
-本仓库专注于收集来自 Martini Art 和顶级提示词工程师的 **高保真 Seedance 2.0 提示词**。无论你是在寻找**电影级过渡**、**角色一致性**，还是复杂的**动作序列**，你都能在这里找到最有效的输入，以解锁 **Martini Art** 的全部潜力。
+**🎯 在线提示词库:** [产品广告提示词](https://martini.art/zh-CN/prompts/video/product-ad-prompts) · [图生视频提示词](https://martini.art/zh-CN/prompts/video/image-to-video-prompts)
+
+本仓库专注于收集来自 Martini Art 和顶级提示词工程师的 **高保真 Seedance 2.0 提示词**。无论你是在寻找**电影级过渡**、**角色一致性**,还是复杂的**动作序列**,都能在这里找到最有效的输入,完整释放 **Seedance 2.0 在 Martini Art 画布上**的潜力。
 
 ## Seedance 2.0 完整提示词 + 媒体链接 + 纯用户视频分享（高播放量精选）
 
