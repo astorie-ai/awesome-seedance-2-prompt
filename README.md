@@ -2,19 +2,19 @@ Last updated on 2026-05-16 12-18-56
 
 ## 更多资料：[Martini Art Repo](https://github.com/MartiniArt/awesome-seedance-2-prompt)
 
-> Curated Seedance 2 prompts, paired with the [Martini canvas](https://martini.art/en/blog/awesome-seedance-2-prompts).
-> Read the full handbook: [Seedance 2 Handbook](https://martini.art/en/blog/seedance-2-handbook).
-> Browse the live prompt libraries: [product](https://martini.art/en/prompts/video/product-ad-prompts) · [image-to-video](https://martini.art/en/prompts/video/image-to-video-prompts).
+# Awesome Seedance 2.0 — Curated Prompt Library 🎬
 
-# Awesome Seedance 2.0 🎬
+> **Curated, open-source Seedance 2.0 prompt library** — copy-paste recipes for **product ads, image-to-video, character continuity, and cinematic camera moves**. Built and maintained by [Martini Art](https://martini.art/), with every prompt runnable on the [Martini Art canvas](https://martini.art/) alongside Veo 3.1, Kling 3.0, Soul V2, and Nano Banana 2.
 
 [![Martini Art stars](https://img.shields.io/github/stars/MartiniArt/awesome-seedance-2-prompt?style=social)](https://github.com/MartiniArt/awesome-seedance-2-prompt/stargazers)
 
 | [English](./README.md) | [简体中文](./README-zh.md) | [Deutsch](./README-de.md) | [Francais](./README-fr.md) | [Espanol](./README-es.md) | [日本語](./README-ja.md) |
 
-> A curated collection of the **best Seedance 2.0 prompts**, video generation techniques, and resources for advanced **Martini Art** experiments.
+**📖 Read on Martini Art:** [Awesome Seedance 2 Prompts (full article)](https://martini.art/en/blog/awesome-seedance-2-prompts) · [Seedance 2 Handbook (model deep-dive)](https://martini.art/en/blog/seedance-2-handbook)
 
-This repository focuses on **high-fidelity Seedance 2.0 prompts** sourced from Martini Art and top prompt engineers. Whether you are looking for **cinematic transitions**, **character consistency**, or complex motion sequences, you will find the most effective inputs here to unlock the full potential of **Martini Art**.
+**🎯 Live prompt libraries:** [Product ad prompts](https://martini.art/en/prompts/video/product-ad-prompts) · [Image-to-video prompts](https://martini.art/en/prompts/video/image-to-video-prompts)
+
+This repository collects **high-fidelity Seedance 2.0 prompts** sourced from Martini Art and top prompt engineers. Whether you are looking for **cinematic transitions**, **character consistency**, or complex motion sequences, you will find the most effective inputs here to unlock the full potential of **Seedance 2.0 on the Martini Art canvas**.
 
 ### Sponsor
 [![Martini Art Ad](./assets/martini-art-real-face-upload-banner.webp)](https://martini.art/)
