@@ -1,4 +1,4 @@
-Last updated on 2026-08-12 12-14-50
+Last updated on 2026-08-13 00-16-34
 
 ## 更多资料：[Martini Art Repo](https://github.com/MartiniArt/awesome-seedance-2-prompt)
 
