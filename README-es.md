@@ -1,4 +1,4 @@
-Last updated on 2026-10-31 03-26-43
+Last updated on 2026-10-31 16-34-33
 
 > Curated Seedance 2 prompts, paired with the [Martini canvas](https://martini.art/en/blog/awesome-seedance-2-prompts).
 > Read the full handbook: [Seedance 2 Handbook](https://martini.art/en/blog/seedance-2-handbook).
