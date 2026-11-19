@@ -1,4 +1,4 @@
-Last updated on 2026-11-18 12-04-40
+Last updated on 2026-11-19 00-08-35
 
 # Awesome Seedance 2.0 — 提示词精选库 🎬
 
